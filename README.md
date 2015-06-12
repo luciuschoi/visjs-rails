@@ -32,12 +32,18 @@ Add this line to your application's assets/javascripts/application.js:
 //= require ...
 ```
 
-and also, add this line to your application's assets/stylesheets/application.scss
+and also, add this line to your application's assets/stylesheets/application.scss:
 
 ```css
 ...
 @import "vis";
 ...
+```
+
+Finally, add this line to your applications' config/initializers/assets.rb:
+
+```ruby
+Rails.application.config.assets.precompile += %w( timeline/* network/* )
 ```
 
 If you want detailed information on it usage, you can refer to original documentation.
