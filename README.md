@@ -44,7 +44,10 @@ If you want detailed information on it usage, you can refer to original document
 
 https://github.com/almende/vis
 
+## Changelog
 
+  - v4.2.0.0 : gemify vis.js library
+  - v4.2.0.1 : paths to assets rewritten using -url helper method
 
 ## Contributing
 
