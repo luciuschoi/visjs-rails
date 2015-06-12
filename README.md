@@ -1,8 +1,10 @@
 # Visjs::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/visjs/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+A dynamic, browser based visualization library. The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data. The library consists of the components DataSet, Timeline, Network, Graph2d and Graph3d. (http://visjs.org/)
 
-TODO: Delete this and the text above, and describe your gem
+This library was wrapped into a ruby gem and can be easily added to assets pipeline in Rails(=>3.1) project.
+
+[![Gem Version](https://badge.fury.io/rb/visjs-rails.svg)](http://badge.fury.io/rb/visjs-rails)
 
 ## Installation
 
