@@ -48,6 +48,7 @@ https://github.com/almende/vis
 
   - v4.2.0.0 : gemify vis.js library
   - v4.2.0.1 : paths to assets rewritten using -url helper method
+  - v4.2.0.2 : deleted vis.map
 
 ## Contributing
 
