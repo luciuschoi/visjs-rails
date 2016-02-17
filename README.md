@@ -57,6 +57,7 @@ https://github.com/almende/vis
   - v4.2.0.2 : deleted vis.map
   - v4.2.0.3 : deleted the line //# sourceMappingURL=vis.map in vis.min.js
   - v4.2.0.4 : renamed vis.css.scss to vis.scss
+  - v4.14.0  : updated to vis.js 1.14.0
 
 ## Contributing
 
