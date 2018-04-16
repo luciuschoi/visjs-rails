@@ -26,9 +26,12 @@ Or install it yourself as:
 
 Add this line to your application's assets/javascripts/application.js:
 
-```ruby
+```js
 //= require ...
 //= require vis
+//= require vis-network.min
+//= require vis-timeline-graph2d.min
+//= require vis-graph3d.min
 //= require ...
 ```
 
@@ -37,13 +40,9 @@ and also, add this line to your application's assets/stylesheets/application.scs
 ```css
 ...
 @import "vis";
+@import "vis-network.min";
+@import "vis-timeline-graph2d.min";
 ...
-```
-
-Finally, add this line to your applications' config/initializers/assets.rb:
-
-```ruby
-Rails.application.config.assets.precompile += %w( timeline/* network/* )
 ```
 
 If you want detailed information on it usage, you can refer to original documentation.
@@ -52,18 +51,19 @@ https://github.com/almende/vis
 
 ## Changelog
 
-  - v4.2.0.0 : gemify vis.js library
-  - v4.2.0.1 : paths to assets rewritten using -url helper method
-  - v4.2.0.2 : deleted vis.map
-  - v4.2.0.3 : deleted the line //# sourceMappingURL=vis.map in vis.min.js
-  - v4.2.0.4 : renamed vis.css.scss to vis.scss
-  - v4.14.0  : updated to vis.js 4.14.0
-  - v4.16.1.0 : updated to vis.js 4.16.1
+* v4.2.0.0 : gemify vis.js library
+* v4.2.0.1 : paths to assets rewritten using -url helper method
+* v4.2.0.2 : deleted vis.map
+* v4.2.0.3 : deleted the line //# sourceMappingURL=vis.map in vis.min.js
+* v4.2.0.4 : renamed vis.css.scss to vis.scss
+* v4.14.0 : updated to vis.js 4.14.0
+* v4.16.1.0 : updated to vis.js 4.16.1
+* v4.21.0.0 : updated to vis.js 4.21.0
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/visjs-rails/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.  Fork it ( https://github.com/[my-github-username]/visjs-rails/fork )
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Add some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create a new Pull Request

@@ -1,5 +1,5 @@
 module Visjs
   module Rails
-    VERSION = "4.16.1.0"
+    VERSION = "4.21.0.0"
   end
 end
